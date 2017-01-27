@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace BKind.Web.Model
 {
@@ -15,6 +14,7 @@ namespace BKind.Web.Model
         public int ThumbsUp { get; set; }
         public DateTime Deleted { get; set; }
     }
+<<<<<<< HEAD
 
 
     public enum Status
@@ -22,4 +22,6 @@ namespace BKind.Web.Model
         Draft, Published, Declined
     }
   
+=======
+>>>>>>> refs/remotes/hudo/work
 }

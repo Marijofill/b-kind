@@ -8,6 +8,7 @@
         }
 
         public StoriesDisplayMode DisplayMode { get; set; }
+<<<<<<< HEAD
 
         public string FirstName { get; set; }
     }
@@ -21,5 +22,13 @@
     {
         Featured,
         Latest
+=======
+    }
+    
+    public enum StoriesDisplayMode
+    {
+        None,
+        FeaturedList
+>>>>>>> refs/remotes/hudo/work
     }
 }

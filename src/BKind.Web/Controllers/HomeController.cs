@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 ﻿using BKind.Web.Infrastructure.Persistance;
+=======
+﻿using System;
+using System.Linq;
+using BKind.Web.Infrastructure.Persistance;
+>>>>>>> refs/remotes/hudo/work
 using BKind.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -19,7 +25,11 @@ namespace BKind.Web.Controllers
             var model = new HomePageViewModel
             {
                 Title = "Welcome to Be Kind",
+<<<<<<< HEAD
                 DisplayMode = StoriesDisplayMode.Featured
+=======
+                DisplayMode = StoriesDisplayMode.FeaturedList
+>>>>>>> refs/remotes/hudo/work
             };
 
             return View(model);
